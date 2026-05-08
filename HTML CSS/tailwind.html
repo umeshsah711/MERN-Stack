@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#4361ee",
+                        secondary: "#00563b", 
+                    }
+                }
+            },
+        }
+        </Script>
+</head>
+<body class="dark">
+     <!-- Color: text-{color}-{shade} -->
+      <!-- Background color: bg-{color}-{shade} -->
+     <h1 class="text-green-700 bg-green-200">Hello World</h1>
+
+     <!-- Background gradient: bg-gradient-to-{direction} from-{color1}-{shade} to-{color2}-{shade} -->
+     <h2 class="bg-gradient-to-r from-blue-500 to-purple-500 text-white p-4">This is Gradient</h2>
+
+     <!-- Font Size: xs, sm, md, lg, xl, 2xl, 3xl, 4xl, 5xl, 6xl, 7xl, 8xl, 9xl -->
+      <!-- Font Weight: font-{weight} (thin, extralight, light, normal, medium, semibold, bold, extrabold, black) -->
+       <!-- Text Alignment: text-{alignment} (left, center, right, justify) -->
+        <!-- Text Decoration: underline, line-through, no-underline -->
+      <p class="text-2xl font-bold text-center underline">Hello World</p>
+
+      <!-- Spacing: margin-m padding-p top-t bottom-b left-l right-r horizontal-h vertical-v -->
+      <p class="bg-blue-200 m-4 p-4 mx-10 pl-5">Hello World</p>
+
+       
+      <!-- Height-h width-w: h-{size} w-{size} (size can be auto, full, screen, or specific values like 1/2, 1/3, etc.) -->
+      <div class="bg-gray-300 h-64 w-64">Box</div>
+
+      <!-- Border -->
+       <!-- Border radius: rounded-{size} (none, sm, md, lg, xl, 2xl, 3xl, full) -->
+      <div class="m-10 border-2 border-red-500 border-2 border-dotted rounded-2xl">Box</div>
+
+      <!-- Display: block, inline-block, inline, flex, grid, hidden -->
+       <!-- Flex: align-items-{alignment} (start, center, end, stretch) justify-content-{alignment} (start, center, end, between, around) -->
+        <div class="m-10 flex justify-evenly items-center">
+        <div class="bg-blue-500 h-10">Box1</div>
+        <div class="bg-red-500 h-15">Box2</div>
+        <div class="bg-green-500 h-20">Box3</div>
+        </div>
+
+        <!-- Grid: grid template-columns-{count} 1fr 1fr 1fr -->
+         <!-- Responsive Design: sm, md, lg, xl -->
+        <div class="grid grid-cols-4 gap-5 justify-items-center">
+            <div class="bg-blue-500 h-15 w-15 border rounded shadow-md shadow-red-500 text-xl sm:text-3xl md:text-4xl">Box</div>
+            <div class="bg-red-500 h-15 w-15">Box</div>
+            <div class="bg-green-500 h-15 w-15">Box</div>
+            <div class="bg-yellow-500 h-15 w-15">Box</div>
+            <div class="bg-cyan-500 h-15 w-15">Box</div>
+            <div class="bg-pink-500 h-15 w-15">Box</div>
+            <div class="bg-purple-500 h-15 w-15">Box</div>
+            <div class="bg-orange-500 h-15 w-15">Box</div>
+        </div>
+
+        <!-- Dark Mode -->
+        <h1 class="text-2xl sm:text-3xl md:text-4xl bg-red-400 dark:bg-slate-800 text:white dark:px-20">Hello World</h1>
+
+        <h2 class="text-5xl text-primary dark:bg-secondary dark:text-white">Welcome</h2>
+
+        <!-- Position: relative, absolute, fixed -->
+         <div class="absolute top-10 right-10 h-15 w-15 bg-blue-500">Box</div>
+         <div class="fixed top-20 h-15 w-15 bg-yellow-500"></div>
+         <div class="sticky top-0 h-full w-15 bg-orange-500"></div>
+         <div class="h-screen w-full bg-gray-300"></div>
+
+         <button class="bg-blue-500 text-white px-5 rounded hover:bg-blue-800 hover:underline focus:border-2 focus:border-blue-300">Click Me</button>
+
+          <!-- Responsive Design: sm, md, lg, xl -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 justify-items-center">
+            <div class="bg-blue-500 h-15 w-15">Box</div>
+            <div class="bg-red-500 h-15 w-15">Box</div>
+            <div class="bg-green-500 h-15 w-15">Box</div>
+            <div class="bg-yellow-500 h-15 w-15">Box</div>
+            <div class="bg-cyan-500 h-15 w-15">Box</div>
+            <div class="bg-pink-500 h-15 w-15">Box</div>
+            <div class="bg-purple-500 h-15 w-15">Box</div>
+            <div class="bg-orange-500 h-15 w-15">Box</div>
+            <div class="bg-pink-500 h-15 w-15">Box</div>
+            <div class="bg-green-500 h-15 w-15">Box</div>
+            <div class="bg-red-500 h-15 w-15">Box</div>
+            <div class="bg-green-500 h-15 w-15">Box</div>
+        </div>
+</div>
+
+<!-- Transform: rotate, scale, translate, skew -->
+ <div class="m-20 border-2">
+ <div class="bg-secondary h-50 w-50 translate-y-10 translate-x-10 rotate-45">Box</div>
+
+ <!-- Animation: animate-pulse, animate-spin, etc. -->
+    <div class="bg-primary h-50 w-50 animate-pulse">Box</div>
+</body>
+</html>
