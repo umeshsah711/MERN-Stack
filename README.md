@@ -83,3 +83,12 @@ Tailwind Project contd...
 2. Interpreted programming language
 3. Built on C++
 4. Used to buid interactive web pages
+
+- Backend
+1. Node
+2. Express
+3. MongoDB
+
+- Frontend
+1. React
+2. Next.js
