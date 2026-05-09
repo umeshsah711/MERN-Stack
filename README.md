@@ -84,6 +84,18 @@ Tailwind Project contd...
 3. Built on C++
 4. Used to buid interactive web pages
 
+- JS course contains
+1. Print
+2. Variables
+3. Datatype
+4. Operators (arithmetic, logical, relational)
+5. Conditional Statements (if, else, switch)
+6. Loop (for, while)
+7. Function
+8. EcmaScript (Template literals, spread operator, destructing, arrow function)
+9. Array Methods (map, reduce, sort, filter, find)
+10. DOM Manipulation
+
 - Backend
 1. Node
 2. Express
@@ -92,3 +104,8 @@ Tailwind Project contd...
 - Frontend
 1. React
 2. Next.js
+
+# Day 13
+1. Operators
+2. Contional Statements
+3. Loop

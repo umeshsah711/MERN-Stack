@@ -63,3 +63,44 @@ const test = [
 console.log(test);
 console.log(grade[0]);
 console.log(test[1]);
+
+
+/** Operator
+ * 1. Arithmetic Operator (+, -, *, /, %)
+ * 2. Realational Operator (==, !=, >=, <=, ===, !==)
+ * 3. Logical Operator ( &&(AND), ||(OR), !(NOT))
+ * 
+*/
+
+// Arithmetic Operator
+console.log(5+6);
+console.log(5-6);
+console.log(5*6);
+console.log(5/6);
+console.log(5%6); // Remainder
+
+console.log(5 + "6"); //56
+console.log(5 - "6"); //9
+console.log("10" + "5"); //105
+
+// Relational Operator
+console.log(10 < 15);
+console.log(10 > 15);
+console.log(10 < 10); // false
+console.log(10 <= 15); //true
+console.log(10 == 15); // true
+console.log(10 == 11); // false
+console.log(10 != 11); // true
+console.log(10 == "10"); // true
+console.log(10 === "10"); // false
+console.log(10 !== "10"); // true
+
+// Logical Operator
+console.log(true && false); // false
+console.log(true && true); // true
+
+console.log(true || false); // false
+console.log(true || true); // true
+
+console.log(!true); // false
+console.log(!false); // true
