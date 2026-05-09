@@ -78,3 +78,8 @@ Tailwind Project
 Tailwind Project contd...
 
 # Day 12
+- JavaScript
+1. High level programming language
+2. Interpreted programming language
+3. Built on C++
+4. Used to buid interactive web pages
