@@ -109,3 +109,7 @@ Tailwind Project contd...
 1. Operators
 2. Contional Statements
 3. Loop
+
+# Day 14
+1. Function
+2. EcmaScript
