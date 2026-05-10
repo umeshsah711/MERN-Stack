@@ -113,3 +113,8 @@ Tailwind Project contd...
 # Day 14
 1. Function
 2. EcmaScript
+
+# Day 15
+1. Array Methods
+
+# Day 16
