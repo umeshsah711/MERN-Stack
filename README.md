@@ -130,3 +130,9 @@ Tailwind Project contd...
 1. Single threaded
 2. Non-blocking operation
 3. Event driven
+
+# Day 17
+- Import/ Export
+- Modules
+
+# Day 18
