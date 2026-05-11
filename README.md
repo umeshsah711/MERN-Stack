@@ -118,3 +118,15 @@ Tailwind Project contd...
 1. Array Methods
 
 # Day 16
+- Introduction on NodeJs
+1. It is a Javascript runtime.
+2. Runtime: A program that runs another program.
+3. Runs JS in local machine.
+4. Built on C++
+5. Built on top of Google Chrome V8 engine
+6. Used for: API, microservices, real time application, JSON based API.
+
+- Architecture
+1. Single threaded
+2. Non-blocking operation
+3. Event driven
