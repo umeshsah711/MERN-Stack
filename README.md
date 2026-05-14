@@ -136,3 +136,7 @@ Tailwind Project contd...
 - Modules
 
 # Day 18
+- Modules:
+1. http
+2. path
+3. url

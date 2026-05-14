@@ -14,16 +14,15 @@ import fs from "fs";
 // const result = fs.readFileSync("data/data.txt", "utf8");
 // console.log(result);
 
-
 // Asynchronous Method
 const result = fs.readFileSync("data/data.txt", "utf8");
 fs.readFile("data/data.txt", "utf8", (error, data) => {
-    if(error) throw error;
-console.log(data);
+  if (error) throw error;
+  console.log(data);
 });
 
 console.log("Hello");
 
-fs.writeFile("data/data.txt", "This is a new text file.", ()=>{
-    console.log("Data written successfully");
+fs.writeFile("data/data.txt", "This is a new text file.", () => {
+  console.log("Data written successfully");
 });
