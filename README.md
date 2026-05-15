@@ -174,3 +174,13 @@ Tailwind Project contd...
 - Callback
 - Promises
 - Async Await
+
+# Day 21
+- ExpressJs
+1. It is a NnodeJs API/Backend framework.
+2. It simplifies the HTTP modules of Node.Js
+3. Minimalist, unopinionated framework.
+4. API format
+   - JSON
+   - XML
+5. REST(Representational State Transfer) API

@@ -1,0 +1,29 @@
+{
+  "name": "techno-api",
+  "version": "0.1.0",
+  "description": "MERN Stack",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umeshsah711/MERN-Stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "types": "module",
+  "bugs": {
+    "url": "https://github.com/umeshsah711/MERN-Stack/issues"
+  },
+  "homepage": "https://github.com/umeshsah711/MERN-Stack#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
