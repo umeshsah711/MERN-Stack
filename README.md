@@ -140,3 +140,37 @@ Tailwind Project contd...
 1. http
 2. path
 3. url
+
+# Day 19
+- HTTP Status Code
+1. 1XX - Informational (Rarely Used)
+
+2. 2XX - Success
+       - 200: OK
+       - 201: Creted
+       - 204: No Content(Delete)
+
+3. 3XX - Redirect
+       - 301: Move permanantly
+       304: Not Modified(used for caching)
+
+4. 4XX - Client Error
+       - 400: Bad Request(invalid input, )
+       - 401: Unauthorized(not logged in user, no token/expired token)
+       - 403: Forbidden(Logged in but not allowed)
+       - 404: Not Found
+       - 405: Methnod not allowed
+       - 409: Conflict(duplicate email, phone)
+       - 422: Unprocessable entity(validation error)
+
+5. 5XX - Server Error
+       - 500: Internal server error
+       - 502: Bad gateway(invalid response from another service)
+       - 503: Service unavailabe
+       - 504: Timeout
+
+# Day 20
+- Asynchronous Programming
+- Callback
+- Promises
+- Async Await
