@@ -1,10 +1,16 @@
 import express from "express";
+import fs from "fs";
+import config from "./config/config.js";
 
 const app = express();
 
 // HTTP GET
 app.get("/", (req, res) => {
-  res.send("Hello World");
+  res.json({
+    name: config.name,
+    port: config.port,
+    version: config.version,
+  });
 });
 
 app.get("/about", (req, res) => {
@@ -43,6 +49,12 @@ app.patch("/", (req, res) => {
   res.send("Patch");
 });
 
-app.listen(5000, () => {
-  console.log("Server is running on port 5000");
+app.get("/products", (req, res) => {
+  const products = fs.readFile("data/products.json", "utf8");
+  const data = JSON.parse(products);
+  res.json(data);
+});
+
+app.listen(config.port, () => {
+  console.log('Server is running on port: &(config.port');
 });
