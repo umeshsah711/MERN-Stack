@@ -184,3 +184,6 @@ Tailwind Project contd...
    - JSON
    - XML
 5. REST(Representational State Transfer) API
+
+# Day 22
+- Layered Architecture
