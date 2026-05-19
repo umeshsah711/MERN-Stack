@@ -4,7 +4,6 @@ import productRoute from "./routes/product.Route.js";
 
 const app = express();
 
-// HTTP GET
 app.get("/", (req, res) => {
   res.json({
     name: config.name,
@@ -17,6 +16,5 @@ app.get("/", (req, res) => {
 app.use("/", productRoute);
 
 app.listen(config.port, () => {
-  console.log('Server is running at port 5000');
+  console.log("Server is running at port 5000");
 });
-

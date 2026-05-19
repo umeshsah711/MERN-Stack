@@ -187,3 +187,22 @@ Tailwind Project contd...
 
 # Day 22
 - Layered Architecture
+1. API Layer
+   a. Routes
+   - Handle the routes/endpoint
+   b. Controllers
+   - Handle Request and responses
+   c. Middlewares
+   - Handle Request and responses
+   - Logging, Auth
+
+2. Business Logic Layer
+   a. Services
+
+3. Data Logic Layer
+   a. Modules
+
+4. Database Layer
+
+# Day 23
+- Controllers & Services
