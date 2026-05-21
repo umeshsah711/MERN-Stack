@@ -4,6 +4,8 @@ import productRoute from "./routes/product.Route.js";
 
 const app = express();
 
+connectDB();
+
 app.get("/", (req, res) => {
   res.json({
     name: config.name,

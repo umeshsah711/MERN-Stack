@@ -206,3 +206,16 @@ Tailwind Project contd...
 
 # Day 23
 - Controllers & Services
+
+# Day 24
+- MongoDB
+1. Non Relational Database
+2. Data are stored collection and documents.
+3. Database: Main container where all data are  stored.
+4. Collection: Equivalent to table relational database.
+5. Document: Equivalent to Row
+6. Field: Equivalent to Column
+
+- Tools used in MongoDB
+1. Locally: MongoDB Compass
+2. Cloud: MongoDB Atlas
