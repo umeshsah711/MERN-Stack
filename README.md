@@ -1,9 +1,11 @@
 MERN Stack
 
 # Day 1
+
 Introduction
 
 # Day 2
+
 HTML
 Basic of HTML like <P> tag <h> tag
 Shift 1 for html template
@@ -12,27 +14,33 @@ Control D is used to select same word to change
 <strong></strong> tag is used to bold the text
 
 # Day 3
+
 Create Table, Form
 
 # Day 4
+
 CSS : Cascading StyleSheet
 Used to style web pages
 Class is determined with dot(.)
 ID is determined with #
 
-** Types of CSS: 
+\*\* Types of CSS:
+
 1. Inline
 2. Internal
 3. External
 
 ** Properties **
+
 1. color
 2. text
 3. font
 4. box model
 
 # Day 5
+
 CSS Properties
+
 1. display
 2. flex
 3. list
@@ -42,26 +50,34 @@ CSS Properties
 7. table
 
 # Day 6
+
 Design form using CSS
 CSS Properties
+
 1. position
 2. grid
 
 # Day 7
+
 CSS Properties
+
 1. responsive design
 2. annimation
 3. transform
 
 # Day 8
+
 Tailwind CSS
+
 1. CSS framework
 2. Used of building UI rspidly
 3. Istead of writing CSS code, we use predefined utility classes directly in html
 4. Highly customizable, works in dark mode, Justify in Time(JIT) compiler for faster builds
 
 # Day 9
+
 Properties
+
 1. pseudo class
 2. custom value
 3. responsive design
@@ -72,19 +88,24 @@ Properties
 8. animation
 
 # Day 10
+
 Tailwind Project
 
 # Day 11
+
 Tailwind Project contd...
 
 # Day 12
+
 - JavaScript
+
 1. High level programming language
 2. Interpreted programming language
 3. Built on C++
 4. Used to buid interactive web pages
 
 - JS course contains
+
 1. Print
 2. Variables
 3. Datatype
@@ -97,28 +118,35 @@ Tailwind Project contd...
 10. DOM Manipulation
 
 - Backend
+
 1. Node
 2. Express
 3. MongoDB
 
 - Frontend
+
 1. React
 2. Next.js
 
 # Day 13
+
 1. Operators
 2. Contional Statements
 3. Loop
 
 # Day 14
+
 1. Function
 2. EcmaScript
 
 # Day 15
+
 1. Array Methods
 
 # Day 16
+
 - Introduction on NodeJs
+
 1. It is a Javascript runtime.
 2. Runtime: A program that runs another program.
 3. Runs JS in local machine.
@@ -127,56 +155,65 @@ Tailwind Project contd...
 6. Used for: API, microservices, real time application, JSON based API.
 
 - Architecture
+
 1. Single threaded
 2. Non-blocking operation
 3. Event driven
 
 # Day 17
+
 - Import/ Export
 - Modules
 
 # Day 18
+
 - Modules:
+
 1. http
 2. path
 3. url
 
 # Day 19
+
 - HTTP Status Code
+
 1. 1XX - Informational (Rarely Used)
 
 2. 2XX - Success
-       - 200: OK
-       - 201: Creted
-       - 204: No Content(Delete)
+   - 200: OK
+   - 201: Creted
+   - 204: No Content(Delete)
 
 3. 3XX - Redirect
-       - 301: Move permanantly
-       304: Not Modified(used for caching)
+   - 301: Move permanantly
+     304: Not Modified(used for caching)
 
 4. 4XX - Client Error
-       - 400: Bad Request(invalid input, )
-       - 401: Unauthorized(not logged in user, no token/expired token)
-       - 403: Forbidden(Logged in but not allowed)
-       - 404: Not Found
-       - 405: Methnod not allowed
-       - 409: Conflict(duplicate email, phone)
-       - 422: Unprocessable entity(validation error)
+   - 400: Bad Request(invalid input, )
+   - 401: Unauthorized(not logged in user, no token/expired token)
+   - 403: Forbidden(Logged in but not allowed)
+   - 404: Not Found
+   - 405: Methnod not allowed
+   - 409: Conflict(duplicate email, phone)
+   - 422: Unprocessable entity(validation error)
 
 5. 5XX - Server Error
-       - 500: Internal server error
-       - 502: Bad gateway(invalid response from another service)
-       - 503: Service unavailabe
-       - 504: Timeout
+   - 500: Internal server error
+   - 502: Bad gateway(invalid response from another service)
+   - 503: Service unavailabe
+   - 504: Timeout
 
 # Day 20
+
 - Asynchronous Programming
 - Callback
 - Promises
 - Async Await
 
 # Day 21
+
 - ExpressJs
+
 1. It is a NnodeJs API/Backend framework.
 2. It simplifies the HTTP modules of Node.Js
 3. Minimalist, unopinionated framework.
@@ -186,13 +223,15 @@ Tailwind Project contd...
 5. REST(Representational State Transfer) API
 
 # Day 22
+
 - Layered Architecture
+
 1. API Layer
    a. Routes
    - Handle the routes/endpoint
-   b. Controllers
+     b. Controllers
    - Handle Request and responses
-   c. Middlewares
+     c. Middlewares
    - Handle Request and responses
    - Logging, Auth
 
@@ -205,17 +244,90 @@ Tailwind Project contd...
 4. Database Layer
 
 # Day 23
+
 - Controllers & Services
 
 # Day 24
+
 - MongoDB
+
 1. Non Relational Database
 2. Data are stored collection and documents.
-3. Database: Main container where all data are  stored.
+3. Database: Main container where all data are stored.
 4. Collection: Equivalent to table relational database.
 5. Document: Equivalent to Row
 6. Field: Equivalent to Column
 
 - Tools used in MongoDB
+
 1. Locally: MongoDB Compass
 2. Cloud: MongoDB Atlas
+
+# Day 25
+
+- Mongoose Schema and Model
+
+# Day 26
+
+- Login & Register
+
+# Day 27
+
+- Authentication & Authorization
+
+1. Authentication
+
+- Who are you? Logged in user
+
+2. Authorization
+
+- What you can do? User role
+
+- JWT
+
+1. JSON Web Token
+2. Used for auth
+3. Tamper proof
+
+- JWT Structure
+
+1. Header
+2. Payload
+3. Signature
+
+- Storage
+
+1. Cookie Storage
+2. Local Storage
+3. Session Storage
+
+- Auth Process
+
+1. Login/Register Success
+2. Generate Token
+3. Store Token: Cookie, Session Storage, Local Storage
+4. Append token every request to handle auth
+5. Verify the token and authenticate/authorize user
+
+# Day 28
+
+- Middleware
+
+1. Function that lies between request and response.
+2. Function that has the access of both request and response object.
+3. It has additional functiona;ity to go to next() middleware call.
+
+- Uses
+
+1. Logging
+2. Authentication & Authorization
+3. Request & Response object modification
+4. Error handling, Data validation
+
+- Authorization -RBAC(Role Based Access Control)
+
+1. USER - Purchase
+2. MERCHANT - Producr create/update/delete
+3. ADMIN - Product mgmt, User mgmt, Order mgmt
+
+# Day 29
