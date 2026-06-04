@@ -331,3 +331,8 @@ Tailwind Project contd...
 3. ADMIN - Product mgmt, User mgmt, Order mgmt
 
 # Day 29
+- Validation
+1. Check/Verify whwther the data is valid or not
+2. e.g. name(string), age(number), isActive(boolean)
+
+# Day 30
