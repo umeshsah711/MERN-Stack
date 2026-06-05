@@ -331,8 +331,33 @@ Tailwind Project contd...
 3. ADMIN - Product mgmt, User mgmt, Order mgmt
 
 # Day 29
+
 - Validation
+
 1. Check/Verify whwther the data is valid or not
 2. e.g. name(string), age(number), isActive(boolean)
 
 # Day 30
+
+- Postman
+
+- Code Semantics
+
+1. Always format your code (Use prettier code formatter)
+2. Use proper spacing and line spacing
+3. Always use camelCase name your file and folder in JS (helloWorld)
+4. Always use camelCase name your function and variable in JS (createUser)
+5. File, Variable must be noun.
+6. Function & methods name must be verb.
+7. Also check singular & plural case e.g. (getUserById, getUsers)
+8. Avoid using number while naming variable, function, flie.
+
+# Day 31
+
+- Products filtering, Sort, limit & offset
+
+# Day 32
+
+- Order managment
+
+# Day 33

@@ -5,6 +5,7 @@ import config from "./config/config.js";
 import productRoute from "./routes/product.Route.js";
 import connectDB from "./config/database.js";
 import authRoute from "./routes/auth.route.js";
+import orderRoute from "./routes/order.route.js";
 
 const app = express();
 app.use(bodyParser.json());
@@ -25,6 +26,7 @@ app.get("/", (req, res) => {
 app.use("/api/products", productRoute);
 app.use("/api/auth", authRoute);
 app.use("/api/users", userRoute);
+app.use("/api/orders", orderRoute);
 app.use("/api/auth", roleBasedAuth(ROLE_ADMIN), userRoute);
 
 app.listen(config.port, () => {
