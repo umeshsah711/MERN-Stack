@@ -1,6 +1,6 @@
 import ecpress from "express";
 
-import { ROLE_USER } from "../constants/roles.js";
+import { ROLE_ADMIN, ROLE_USER } from "../constants/roles.js";
 import auth from "../middlewares/auth.js";
 import orderController from "../controllers/order.controller.js";
 import roleBasedAuth from "../middlewares/roleBaseAuth.js";
@@ -17,6 +17,28 @@ router.post(
   roleBasedAuth(ROLE_USER),
   validate(orderSchema),
   orderController.createOrder,
+);
+
+router.put(
+  "/:id/status",
+  auth,
+  roleBasedAuth(ROLE_ADMIN),
+  validate(orderSchema),
+  orderController.updateOrderStatus,
+);
+
+router.post(
+  "/:id/payment/khalti",
+  auth,
+  roleBasedAuth(ROLE_USER),
+  orderController.orderPaymentViaKhalti,
+);
+
+router.post(
+  "/:id/conform-payment",
+  auth,
+  roleBasedAuth(ROLE_USER),
+  orderController.conformOrderPayment,
 );
 
 export default router;

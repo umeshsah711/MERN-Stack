@@ -3,15 +3,20 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const config = {
+  appUrl: process.env.APP_URL || "",
   name: process.env.NAME || "",
   port: process.env.PORT || "",
   version: process.env.VERSION || "",
   feature: {
     admin: {
-      enabled: parseInt(process.env.FAILURE_ADMIN_ENABLED) || false,
+      enabled: parseInt(process.env.FEATURE_ADMIN_ENABLED) || false,
     },
   },
   mongodbUrl: process.env.MONGODB_URL || "",
+  khalti: {
+    apiUrl: process.env.KHALTI_API_URL || "",
+    secretKey: process.env.KHALTI_SECRET_KEY || "",
+  },
 };
 
 export default config;
