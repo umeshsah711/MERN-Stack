@@ -361,3 +361,13 @@ Tailwind Project contd...
 - Order managment
 
 # Day 33
+
+- Khalti payment, COD, Confirm payment
+
+# Day 34
+- File Upload
+1. File data -> Send as FormData
+2. Use multer package to handle formdata
+3. Upload Cloudinary
+4. Receive the file url from uploaded file
+5. Store the url in database
