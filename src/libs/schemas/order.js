@@ -11,7 +11,7 @@ const orderSchema = z.object({
   orderItems: z.array(
     z.object({
       product: z.string({ error: "Product is required" }),
-      quntity: z.number().default(1),
+      quantity: z.number().default(1),
     }),
   ),
   totalPrice: z.number({ error: "Total price is required" }),

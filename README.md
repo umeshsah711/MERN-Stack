@@ -62,7 +62,7 @@ CSS Properties
 CSS Properties
 
 1. responsive design
-2. annimation
+2. animation
 3. transform
 
 # Day 8
@@ -70,8 +70,8 @@ CSS Properties
 Tailwind CSS
 
 1. CSS framework
-2. Used of building UI rspidly
-3. Istead of writing CSS code, we use predefined utility classes directly in html
+2. Used of building UI rapidly
+3. Instead of writing CSS code, we use predefined utility classes directly in html
 4. Highly customizable, works in dark mode, Justify in Time(JIT) compiler for faster builds
 
 # Day 9
@@ -102,7 +102,7 @@ Tailwind Project contd...
 1. High level programming language
 2. Interpreted programming language
 3. Built on C++
-4. Used to buid interactive web pages
+4. Used to build interactive web pages
 
 - JS course contains
 
@@ -131,7 +131,7 @@ Tailwind Project contd...
 # Day 13
 
 1. Operators
-2. Contional Statements
+2. Conditional Statements
 3. Loop
 
 # Day 14
@@ -181,11 +181,11 @@ Tailwind Project contd...
 
 2. 2XX - Success
    - 200: OK
-   - 201: Creted
+   - 201: Created
    - 204: No Content(Delete)
 
 3. 3XX - Redirect
-   - 301: Move permanantly
+   - 301: Move permanently
      304: Not Modified(used for caching)
 
 4. 4XX - Client Error
@@ -193,14 +193,14 @@ Tailwind Project contd...
    - 401: Unauthorized(not logged in user, no token/expired token)
    - 403: Forbidden(Logged in but not allowed)
    - 404: Not Found
-   - 405: Methnod not allowed
+   - 405: Method not allowed
    - 409: Conflict(duplicate email, phone)
    - 422: Unprocessable entity(validation error)
 
 5. 5XX - Server Error
    - 500: Internal server error
    - 502: Bad gateway(invalid response from another service)
-   - 503: Service unavailabe
+   - 503: Service unavailable
    - 504: Timeout
 
 # Day 20
@@ -214,7 +214,7 @@ Tailwind Project contd...
 
 - ExpressJs
 
-1. It is a NnodeJs API/Backend framework.
+1. It is a NodeJs API/Backend framework.
 2. It simplifies the HTTP modules of Node.Js
 3. Minimalist, unopinionated framework.
 4. API format
@@ -315,7 +315,7 @@ Tailwind Project contd...
 
 1. Function that lies between request and response.
 2. Function that has the access of both request and response object.
-3. It has additional functiona;ity to go to next() middleware call.
+3. It has additional functionality to go to next() middleware call.
 
 - Uses
 
@@ -327,14 +327,14 @@ Tailwind Project contd...
 - Authorization -RBAC(Role Based Access Control)
 
 1. USER - Purchase
-2. MERCHANT - Producr create/update/delete
-3. ADMIN - Product mgmt, User mgmt, Order mgmt
+2. MERCHANT - Product create/update/delete
+3. ADMIN - Product management, User management, Order management
 
 # Day 29
 
 - Validation
 
-1. Check/Verify whwther the data is valid or not
+1. Check/Verify whether the data is valid or not
 2. e.g. name(string), age(number), isActive(boolean)
 
 # Day 30
@@ -350,7 +350,7 @@ Tailwind Project contd...
 5. File, Variable must be noun.
 6. Function & methods name must be verb.
 7. Also check singular & plural case e.g. (getUserById, getUsers)
-8. Avoid using number while naming variable, function, flie.
+8. Avoid using number while naming variable, function, file.
 
 # Day 31
 
@@ -358,7 +358,7 @@ Tailwind Project contd...
 
 # Day 32
 
-- Order managment
+- Order management
 
 # Day 33
 
@@ -369,10 +369,19 @@ Tailwind Project contd...
 - File upload using multer in Cloudinary
 - File Upload
 
-1. File data -> Send as FormData
-2. Use multer package to handle formdata
+1. File data -> Send as formData
+2. Use multer package to handle form data
 3. Upload Cloudinary
 4. Receive the file url from uploaded file
 5. Store the url in database
 
 # Day 35
+
+- Debugging
+
+1. Check from root app.js file
+2. Check in the routes file. e.g. `product.route.js`
+3. Check in the controller file. e.g. `product.controller.js`
+4. Check in the service file. e.g. `product.service.js`
+
+# Day 36

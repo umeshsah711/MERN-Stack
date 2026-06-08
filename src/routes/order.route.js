@@ -1,4 +1,4 @@
-import ecpress from "express";
+import express from "express";
 
 import { ROLE_ADMIN, ROLE_USER } from "../constants/roles.js";
 import auth from "../middlewares/auth.js";

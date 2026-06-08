@@ -1,5 +1,5 @@
 const logger = (req, res, next) => {
-  const url = req.originlaUrl;
+  const url = req.originalUrl;
   const method = req.method;
 
   console.log(`Method: ${method} & Url: ${url}`);

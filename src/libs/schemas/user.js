@@ -1,5 +1,5 @@
 import z from "zod";
-import { ROLR_USER, ROLE_ADMIN, ROLE_MERCHANT } from "../../constants/roles.js";
+import { ROLE_USER, ROLE_ADMIN, ROLE_MERCHANT } from "../../constants/roles.js";
 
 const addressSchema = z.object({
   city: z.string({ error: "Address City is required" }),

@@ -17,7 +17,7 @@ const orderPaymentViaKhalti = async (id, user) => {
 
   const orderPayment = await Payment.create({
     method: "ONLINE",
-    amount: order.totalprice,
+    amount: order.totalPrice,
   });
 
   await Order.findByIdAndUpdate(id, {
