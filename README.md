@@ -385,3 +385,14 @@ Tailwind Project contd...
 4. Check in the service file. e.g. `product.service.js`
 
 # Day 36
+
+- Forget/Reset password
+
+1. User request for forget password.
+2. User inputs the email address.
+3. Using the email address, find the user and create a reset password link & token.
+4. Send the reset password link to that email.
+5. User clicks on the reset password link from the received email.
+6. User inputs the new password along with token.
+7. Verify the user and token.
+8. Update the password.
