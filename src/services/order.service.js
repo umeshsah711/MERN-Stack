@@ -2,7 +2,7 @@ import Order from "../models/Order.js";
 import crypto from "crypto";
 
 const getOrder = async () => {
-  return awaitOrder.find().populate("user", "name email phone");
+  return await Order.find().populate("user", "name email phone");
 };
 
 const createOrder = async (data, userId) => {

@@ -1,4 +1,4 @@
-import a from "zod";
+import z from "zod";
 
 const addressSchema = z.object({
   city: z.string({ error: "Shipping Address City is required" }),

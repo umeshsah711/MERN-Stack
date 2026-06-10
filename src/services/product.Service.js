@@ -7,11 +7,9 @@ const getProducts = async (query) => {
   const products = await Product.find();
   return products;
   const data = JSON.parse(products);
-
-  
 };
 
-const getProductsById = (id) => {
+const getProductsById = async (id) => {
   const product = await Product.findById(id);
 
   return products;
@@ -21,12 +19,18 @@ const createProduct = async (data) => {
   return await Product.create(data);
 };
 
-const deleteProduct = async(id) => {
- await Product.findByIdAndDelete(id);
+const deleteProduct = async (id) => {
+  await Product.findByIdAndDelete(id);
 };
 
-const updateProduct = async(id) => {
- await Product.findByIdAndUpdate(id);
+const updateProduct = async (id) => {
+  await Product.findByIdAndUpdate(id);
 };
 
-export default { getProducts, getProductsById, createProduct, deleteProduct, updateProduct };
+export default {
+  getProducts,
+  getProductsById,
+  createProduct,
+  deleteProduct,
+  updateProduct,
+};

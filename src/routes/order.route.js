@@ -24,7 +24,7 @@ router.put(
   auth,
   roleBasedAuth(ROLE_ADMIN),
   validate(orderSchema),
-  orderController.updateOrderStatus,
+  orderController.updateOrder,
 );
 
 router.post(

@@ -396,3 +396,5 @@ Tailwind Project contd...
 6. User inputs the new password along with token.
 7. Verify the user and token.
 8. Update the password.
+
+# Day 37
