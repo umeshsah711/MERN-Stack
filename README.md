@@ -402,3 +402,7 @@ Tailwind Project contd...
 - User management, Get orders by merchant
 
 # Day 38
+
+- Deployment & AI integration
+
+# Day 39

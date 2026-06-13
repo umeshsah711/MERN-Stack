@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/umeshsah711/MERN-Stack#readme",
   "dependencies": {
+    "@google/genai": "^2.8.0",
     "axios": "^1.17.0",
     "bcryptjs": "^3.0.3",
     "cloudinary": "^2.10.0",

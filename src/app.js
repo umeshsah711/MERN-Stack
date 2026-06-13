@@ -66,6 +66,7 @@ import roleBasedAuth from "./middlewares/roleBaseAuth.js";
 
 import { ROLE_ADMIN } from "./constants/roles.js";
 import uploadFile from "./utils/uploadFile.js";
+import promptAI from "./utils/ai.js";
 
 const app = express();
 const upload = multer({ dest: "uploads/" });
@@ -86,6 +87,11 @@ app.get("/", (req, res) => {
     version: config.version,
     status: "OK",
   });
+});
+
+app.post("/gemini", async (req, res) => {
+  const data = await promptAI(req.body.message);
+  res.json(data);
 });
 
 // Upload route
