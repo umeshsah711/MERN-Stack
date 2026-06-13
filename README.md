@@ -398,3 +398,7 @@ Tailwind Project contd...
 8. Update the password.
 
 # Day 37
+
+- User management, Get orders by merchant
+
+# Day 38

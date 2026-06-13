@@ -18,4 +18,9 @@ const userSchema = z.object({
   profileImageUrl: z.string().optional(),
   isActive: z.boolean().optional(),
 });
-export { userSchema, addressSchema };
+
+const updateRolesSchema = z.object({
+  roles: z.array(z.enum([ROLE_USER, ROLE_MERCHANT])),
+});
+
+export { userSchema, addressSchema, updateRolesSchema };
