@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <div class="container mx-auto py-16 px-4">
+        <table class="w-full">
+            <thead>
+                <tr class="bg-gray-200">
+                    <th class="border border-gray-300 px-2 py-1">Id</th>
+                    <th class="border border-gray-300 px-2 py-1">Name</th>
+                    <th class="border border-gray-300 px-2 py-1">Brands</th>
+                    <th class="border border-gray-300 px-2 py-1">Category</th>
+                    <th class="border border-gray-300 px-2 py-1">Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each products}}
+                <tr>
+                    <td class="border border-gray-300 px-2 py-1">{{_id}}</td>
+                    <td class="border border-gray-300 px-2 py-1">{{name}}</td>
+                    <td class="border border-gray-300 px-2 py-1">{{brand}}</td>
+                    <td class="border border-gray-300 px-2 py-1">{{category}}</td>
+                    <td class="border border-gray-300 px-2 py-1">{{price}}</td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
