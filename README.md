@@ -410,3 +410,5 @@ Tailwind Project contd...
 - Template engine
 
 # Day 40
+
+- DOM (Document Object Model)
