@@ -412,3 +412,7 @@ Tailwind Project contd...
 # Day 40
 
 - DOM (Document Object Model)
+
+# Day 41
+
+- Init React App
